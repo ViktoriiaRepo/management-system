@@ -1,0 +1,33 @@
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.cardMediaStyle {
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.cardContentStyle {
+  flex-grow: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: aliceblue;
+}
+
+.detailStyle {
+  margin: 20px 20px 0px;
+}
+
+.cardActions {
+  padding: 0px 20px 14px 20px;
+  display: flex;
+  justify-content: space-between;
+}
